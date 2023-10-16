@@ -32,6 +32,6 @@ def fetch_prices(symbol, exchange_names):
 if __name__ == "__main__":
     symbol = 'ADA/BTC'
 
-    exchange_names = ['Poloniex', 'OKX']    #you can add another exchanges here
+    exchange_names = ['Poloniex', 'OKX', 'binance']    #you can add another exchanges here
 
     fetch_prices(symbol, exchange_names)
